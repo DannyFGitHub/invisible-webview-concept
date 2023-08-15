@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dinosaur World</title>
+    <style>
+      html {
+        overscroll-behavior: none; /* Disable pull-to-refresh and overscroll glow effect */
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background-color: transparent; /* Changed background color to transparent */
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+      .container {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+      }
+      p {
+        line-height: 1.6;
+      }
+      footer {
+        text-align: center;
+        padding: 1rem;
+        color: #777;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Dinosaur World!</h1>
+      <p>Explore the fascinating world of dinosaurs.</p>
+    </header>
+    <div class="container">
+      <h2>About Dinosaurs</h2>
+      <p>
+        Dinosaurs were a diverse group of reptiles that lived millions of years
+        ago. They came in various sizes and shapes, from the massive T-Rex to
+        the gentle giants like Brachiosaurus.
+      </p>
+      <h2>Types of Dinosaurs</h2>
+      <p>There were many different types of dinosaurs, such as:</p>
+      <ul>
+        <li>Tyrannosaurus Rex</li>
+        <li>Velociraptor</li>
+        <li>Triceratops</li>
+        <li>Stegosaurus</li>
+      </ul>
+      <h2>Fossils and Discoveries</h2>
+      <p>
+        Fossils of dinosaurs have been found all around the world, giving us
+        valuable insights into their lives and habits.
+      </p>
+    </div>
+    <footer>
+      <p>Created by [Your Name] | © 2023 Dinosaur World</p>
+    </footer>
+    <script>
+      function getContentSize() {
+        return {
+          width: document.body.scrollWidth,
+          height: document.body.scrollHeight,
+        };
+      }
+    </script>
+  </body>
+</html>
